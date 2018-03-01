@@ -1,18 +1,52 @@
+body {
+	background-image: url("../images/background.jpg");
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 #animal-form {
-	text-align: center;
-	margin-top: 1em;
-	font-size: 30px;
-	padding-bottom: 1em;
+  text-align: center;
+  margin-top: 1em;
+  font-size: 20px;
+  padding-bottom: 1em;
 }
 
 #animalButtons {
-	text-align: center;
-	padding-top: 1em;
-	margin-top: 1em;
-	border-bottom: 1px black solid;
-	padding-bottom: 2em;
+  text-align: center;
+  padding-top: 1em;
+  margin-top: 1em;
+  padding-bottom: 2em;
 }
 
 #animals {
+  text-align: center;
+}
 
+#addAnimal {
+	margin-top:.5em;
+	border: magenta 5px solid;
+}
+
+#title-text {
+	color: black;
+	font-size: 40px;
+	padding: .5em;
+	background-color: yellow;
+	border: magenta 5px solid;
+}
+
+#animal-input {
+	width: 33.33%;
+	border: magenta 5px solid;
+}
+
+button {
+	border: magenta 5px solid;
+	margin-left: 2px;
+	margin-right: 2px;
+	font-size: 25px;
+	padding: .5em;
+}
+
+img {
+	border: magenta 7px solid;
 }
