@@ -37,7 +37,7 @@ $(function() {
     var queryURL =
       "https://api.giphy.com/v1/gifs/search?q=" +
       animals +
-      "&api_key=dc6zaTOxFJmzC&limit=10";
+      "&api_key=dc6zaTOxFJmzC&limit=100";
 
     $.ajax({
       url: queryURL,
